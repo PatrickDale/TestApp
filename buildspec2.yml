@@ -5,8 +5,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - touch hello.txt
-      - mv buildspec2.yml buildspec.yml
+      - cat hello.txt
   post_build:
     commands:
       - echo Build completed on `date`
